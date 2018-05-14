@@ -1,0 +1,21 @@
+{
+	"type":"inverter",
+	"serialNumber":"0",
+	"manufacturer":"ABB",
+	"modelNumber":"PVS800",
+	"toStore":"False",
+	"identity":{
+		"IPAddress":"10.42.254.23",
+		"threshold":{
+			"powerGrid":{
+				"value":"6500",
+				"type":"max"
+			},
+			"currentPV":{
+				"valueMax":"10000",
+				"valueMin":"0",
+				"type":"pass"
+			}
+		}
+	}
+}
